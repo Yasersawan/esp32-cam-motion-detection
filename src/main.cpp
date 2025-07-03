@@ -57,6 +57,7 @@ camera_config_t camera_config = {
   .fb_count = 1
 };
 
+
 void sendEmail(uint8_t *imageBuf, size_t imageLen) {
   SMTP_Message message;
   message.sender.name = "ESP32-CAM";
