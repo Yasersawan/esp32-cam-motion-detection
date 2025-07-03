@@ -5,19 +5,19 @@
 #include <time.h> // For timestamp
 
 // WiFi credentials
-const char* ssid = "Yaser";
-const char* password = "123456788";
+const char* ssid = "Your_SSID";
+const char* password = "Your_Password";
 
 // Email credentials/config
-#define SMTP_HOST "smtp.gmail.com"
-#define SMTP_PORT 465
-#define AUTHOR_EMAIL "mhmmadyaser@gmail.com"
-#define AUTHOR_PASSWORD "fwcl kqtx maty fbao"
-#define RECIPIENT_EMAIL "yaser.sawan99@gmail.com"
+#define SMTP_HOST "smtp.gmail.com"  // Use your SMTP server, e.g., Gmail
+#define SMTP_PORT 465 // Use 465 for SSL, 587 for TLS
+#define AUTHOR_EMAIL "****@gmail.com"
+#define AUTHOR_PASSWORD "App Password" // Use an App Password if 2FA is enabled
+#define RECIPIENT_EMAIL "******@mail.com"
 
 // Supabase config (replace with your values)
-#define SUPABASE_URL "https://yngwwwurmfzdnqbkrnyf.supabase.co"
-#define SUPABASE_API_KEY "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InluZ3d3d3VybWZ6ZG5xYmtybnlmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTAzNzYwMDQsImV4cCI6MjA2NTk1MjAwNH0.B_IplUqZE7qrxXNdhd9g3KaN0vl_ZPgLKDL5F0AeHpE" // Use anon key
+#define SUPABASE_URL "https://your-project.supabase.co"
+#define SUPABASE_API_KEY "Your_Supabase_API_Key" // Use anon key
 #define SUPABASE_TABLE "motion_events"
 #define SUPABASE_BUCKET "photos"
 
